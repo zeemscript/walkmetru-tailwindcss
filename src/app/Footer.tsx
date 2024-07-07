@@ -1,20 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-solid-svg-icons";
-
 const Footer = () => {
   return (
     <footer>
       <section className="container mx-auto pt-10">
         {/* newsletter form */}
-        <div className="relative bg-[#003333] w-full h-[50vh] rounded-2xl ">
-          <div className="absolute w-64 h-64 bg-[#003333] border border-white rounded-full -left-4 -top-4"></div>
+        <div className=" bg-[#003333] w-full h-[50vh] rounded-2xl ">
+          <div className=" w-64 h-64 bg-[#003333] border border-white rounded-full  -left-20 -top-4 "></div>
         </div>
 
         <div className="flex flex-wrap font-thin mt-20 my-4 mx-auto">
@@ -42,46 +34,12 @@ const Footer = () => {
                   />
                 </Link>
               </span>
-              <p className="mt-4 flex space-x-4">
-                <a
-                  href="https://web.facebook.com/walkmetru?_rdc=1&_rdr"
-                  className="text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faFacebook} className="px-2 py-4" />
-                </a>
-                <a
-                  href="https://x.com/walkmetru"
-                  className="text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faTwitter} className="px-2 py-4" />
-                </a>
-                <a
-                  href="https://www.instagram.com/walkmetru"
-                  className="text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faInstagram} className="px-2 py-4" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/walkmetru"
-                  className="text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faLinkedin} className="px-2 py-4" />
-                </a>
-              </p>
             </div>
           </div>
 
-          <div className="w-full md:w-1/6 px-3 mb-5 md:mb-0">
+          <div className="w-full md:w-1/6 px-3 mb-5 md:mb-0 ">
             <ul>
-              <li className="font-bold mb-2">Admin</li>
+              <li className="font-bold mb-2 text-[#00B595]">Admin</li>
               <li className="mb-2">
                 <a href="#" className="text-white font-thin">
                   Pricing Policy
@@ -121,7 +79,7 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/6 px-3 mb-5 md:mb-0">
             <ul>
-              <li className="font-bold mb-2">About Us</li>
+              <li className="font-bold mb-2 text-[#00B595]">About Us</li>
               <li className="mb-2">
                 <a href="#" className="text-white font-thin">
                   Careers
@@ -170,11 +128,11 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
-            <span className="mt-4 font-normal text-center justify-center items-center flex">
-              &copy; 2024 Walkmetru. All Rights Reserved.
-            </span>
           </div>
         </div>
+        <span className="mt-10 mb-5 font-normal text-center text-[#00B595] justify-center items-center flex">
+          &copy; 2024 Walkmetru. All Rights Reserved.
+        </span>
       </section>
     </footer>
   );
