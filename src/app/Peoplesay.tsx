@@ -83,7 +83,7 @@ const Peoplesay = () => {
               alt="brands-image"
               width={800}
               height={50}
-              className="w-full max-w-[800px] h-auto px-4"
+              className="w-[100rem] h-[50rem]px-4"
             />
           </div>
         </div>

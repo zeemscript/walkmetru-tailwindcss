@@ -155,10 +155,10 @@ const Hero = () => {
               </p>
             </div>
             <div className="mt-10 flex gap-4 items-center justify-center">
-              <button className="bg-[#00B595] px-3 py-3 rounded-md text-white">
+              <button className="bg-[#00B595] text-sm  sm:text-xl px-3 py-3 rounded-md text-white">
                 Explore 1 on 1 Courses
               </button>
-              <button className="border border-green-800 rounded-md px-3 py-3 text-white">
+              <button className="border border-green-800 rounded-md px-3 py-3 text-sm sm:text-xl text-white">
                 Sign Up
               </button>
             </div>

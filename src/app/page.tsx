@@ -16,7 +16,7 @@ import Patners from "./Patners";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <Hero />
       <WhyWalktru />
       <LearnFaster />
